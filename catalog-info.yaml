@@ -17,6 +17,9 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: ItRachii/testapplication
     sonarqube.org/project-key: 'JtSpringProject/rachit'
+    prometheus.io/scrape: "true"
+    prometheus.io/path: "/metrics"
+    prometheus.io/port: "9090"
 spec:
   type: service
   lifecycle: development
